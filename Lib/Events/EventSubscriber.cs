@@ -1,5 +1,3 @@
-using System;
-
 namespace Lib.Events;
 
 public class EventSubscriber

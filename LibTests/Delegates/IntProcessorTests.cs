@@ -1,4 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
 using Lib.Delegates;
 
 namespace LibTests.Delegates;

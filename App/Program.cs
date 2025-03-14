@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using System.Text;
 
 var ipEndPoint = new IPEndPoint(IPAddress.Any, 5000);
-TcpListener listener = new(ipEndPoint);
+var listener = new TcpListener(ipEndPoint);
 
 static void Shutdown(TcpListener listener)
 {
